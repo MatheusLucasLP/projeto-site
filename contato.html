@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        div.header {
+            background-image: url(4.png);
+            background-size: 1000px;
+            height: 200px;
+        }
+
+        div#q1{
+            background-position: left ;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="página principal.html">Página Principal</a></li>
+                <li><a href="sobre a clínica.html">Sobre a Clínica</a></li>
+                <li><a href="horário de atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main" id="q1">
+            <div class="header" id="q1">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <ul>
+                    <li>Telefone de Contato: (67)99475-5247</li>
+                    <li>Endereço: R. Duque de Caxias, 4066 - Centro, Aparecida do Taboado - MS, 79570-000</li>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.167299467346!2d-51.09847212589081!3d-20.08529218133829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9499914ad34380a5%3A0xb03eef3eb79d8136!2sR.%20Duque%20de%20Caxias%2C%204066%20-%20Centro%2C%20Aparecida%20do%20Taboado%20-%20MS%2C%2079570-000!5e0!3m2!1spt-BR!2sbr!4v1711299580876!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </ul>
+                <form name="contato" autocomplete="on" method="post" action="">
+                    Nome: <input type="text"> <br>
+                    E-mail: <input type="email"> <br>
+                    Assunto: <input type="text"> <br>
+                    <label for="Mensagem">Mensagem:</label> <br>
+                    <textarea name="message" id="" cols="30" rows="3"></textarea><br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar Formulário</button>
+                </form>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer" align="center">
+                <p>Clínica Odontológica @ 2023</p>
+                <p>Todos os direitos reservados</p>
+                <p>(67)99475-5247</p>
+                <p>CNPJ 00.000.000/0000-00</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

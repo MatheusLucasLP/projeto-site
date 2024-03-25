@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table {
+            box-shadow: 5px 7px 27px -3px rgba(0,0,0,0.76);
+            -webkit-box-shadow: 5px 7px 27px -3px rgba(0,0,0,0.76);
+            -moz-box-shadow: 5px 7px 27px -3px rgba(0,0,0,0.76);
+            border: solid 1px gray;
+        }
+        table thead th {
+            background-color: black;
+            color: white
+        }
+        table tbody tr:nth-child(even) {
+            background: #f1f1f1;
+        }
+
+        div.header {
+            background-image: url(3.png);
+            background-size: 1000px;
+            height: 200px;
+        }
+
+        div#q1{
+            background-position: left ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="página principal.html">Página Principal</a></li>
+                <li><a href="sobre a clínica.html">Sobre a Clínica</a></li>
+                <li><a href="horário de atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main" id="q1">
+            <div class="header" id="q1">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <p>Tudo que você precisa para cuidar bem da sua saúde bucal. Com uma rede ampla de convênios, a Clínica Odontológica possui várias especialidades, além de realizar procedimentos clínicos e exames para seu maior conforto.</p>
+
+                <table width="250" align="center" cellspacing="0" cellpadding="5" >
+                    <thead>
+                        <th colspan="4">Tabela de Preços e Horários</th>
+                    </thead>
+                    <thead>
+                        <th>Serviços</th>
+                        <th>Preços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábado</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Limpeza</td>
+                            <td>R$150,00</td>
+                            <td>08:00 às 18:00</td>
+                            <td>10:00 às 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>Clareamento</td>
+                            <td>R$300,00</td>
+                            <td>08:00 às 18:00</td>
+                            <td>10:00 às 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>Placa de Bruxismo</td>
+                            <td>R$400,00</td>
+                            <td>08:00 às 18:00</td>
+                            <td>Fechado</td>
+                        </tr>
+                        <tr>
+                            <td>Facetas de Porcelana</td>
+                            <td>R$6.000,00</td>
+                            <td>08:00 às 18:00</td>
+                            <td>Fechado</td>
+                        </tr>
+                        <tr>
+                            <td>Implante</td>
+                            <td>R$12.000,00</td>
+                            <td>08:00 às 18:00</td>
+                            <td>Fechado</td>
+                        </tr>
+                    </tbody>
+            </table>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer" align="center">
+                <p>Clínica Odontológica @ 2023</p>
+                <p>Todos os direitos reservados</p>
+                <p>(67)99475-5247</p>
+                <p>CNPJ 00.000.000/0000-00</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
